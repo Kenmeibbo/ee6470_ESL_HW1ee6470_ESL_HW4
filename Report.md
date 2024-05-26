@@ -47,9 +47,9 @@ Let the result as grayscale.
             buffer[2] = *(source_bitmap + bytes_per_pixel * ((i + v) * width + (j + u)) + 0);
             buffer[3] = 0;
 
-			*(target_bitmap + bytes_per_pixel * (width * i + j) + 2) = total;
-       		*(target_bitmap + bytes_per_pixel * (width * i + j) + 1) = total;
-        	*(target_bitmap + bytes_per_pixel * (width * i + j) + 0) = total;
+            *(target_bitmap + bytes_per_pixel * (width * i + j) + 2) = total;
+            *(target_bitmap + bytes_per_pixel * (width * i + j) + 1) = total;
+            *(target_bitmap + bytes_per_pixel * (width * i + j) + 0) = total;
 ```
 ### Result
 Use image "lena_std_short.bmp" as input
