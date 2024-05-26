@@ -1,0 +1,1 @@
+/usr/bin/c++ "-w" -rdynamic CMakeFiles/sc_export.dir/main.cpp.o -o sc_export  ../../../../src/libsystemc.a 

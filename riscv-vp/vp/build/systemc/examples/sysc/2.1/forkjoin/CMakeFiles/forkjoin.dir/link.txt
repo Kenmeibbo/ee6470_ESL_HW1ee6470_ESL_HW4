@@ -1,0 +1,1 @@
+/usr/bin/c++ "-w" -rdynamic CMakeFiles/forkjoin.dir/forkjoin.cpp.o -o forkjoin  ../../../../src/libsystemc.a 

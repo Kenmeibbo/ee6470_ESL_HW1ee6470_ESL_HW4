@@ -1,0 +1,1 @@
+/usr/bin/c++ "-w" -rdynamic CMakeFiles/scx_barrier.dir/main.cpp.o -o scx_barrier  ../../../../src/libsystemc.a 
